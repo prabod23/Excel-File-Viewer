@@ -1,0 +1,31 @@
+.excel-viewer {
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 1rem;
+  background: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.excel-viewer h2 {
+  margin-bottom: 1rem;
+}
+.excel-viewer input[type="file"] {
+  margin-bottom: 1rem;
+}
+.excel-viewer table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+}
+.excel-viewer th,
+.excel-viewer td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.excel-viewer th {
+  background: #e3e3e3;
+}
+.excel-viewer tr:nth-child(even) {
+  background: #f2f2f2;
+}
